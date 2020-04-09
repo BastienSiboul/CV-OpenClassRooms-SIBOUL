@@ -1,0 +1,24 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(100px, 150px);
+}
+
+.un {
+  grid-column: 2/4;
+  grid-row: 1/2;
+  border: 1px solid #181818;
+}
+
+.deux {
+  grid-column: 2/4;
+  grid-row: 2/7;
+  border: 1px solid #181818;
+}
+
+.trois {
+  grid-column: 1/2;
+  grid-row: 1/7;
+  border: 1px solid #181818;
+}
