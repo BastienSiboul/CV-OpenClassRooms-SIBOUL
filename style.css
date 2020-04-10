@@ -174,3 +174,40 @@ td i
 	color: #FFD700;
 	margin-right: 20px;
 }
+
+@media screen and (max-width: 1024px)
+{
+	.wrapper 
+	{
+  		display: grid;
+  		grid-template-columns: repeat(3, 1fr);
+  		grid-gap: 10px;
+  		grid-auto-rows: minmax(100px, auto);
+	}
+
+	.un 
+	{
+  		grid-column: 1/4;
+  		grid-row: 1/2;
+	}
+
+	.deux 
+	{
+  		grid-column: 1/4;
+  		grid-row: 2/6;
+	}
+
+	.trois 
+	{
+	  grid-column: 1/4;
+	  grid-row: 6/10;
+	  background-color: #FFD700
+	}
+
+	#apropos
+	{
+		height: auto;
+	}
+
+	
+}
