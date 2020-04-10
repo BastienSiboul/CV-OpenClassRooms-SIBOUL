@@ -209,5 +209,15 @@ td i
 		height: auto;
 	}
 
+	#formation td
+{
+	width: auto;
+}
+
+#experience td
+{
+	width: auto;
+}
+
 	
 }
