@@ -102,7 +102,7 @@ aside h2
 
 #liste ul
 {
-	width: 49%;
+	width: 50%;
 	padding-left: 0;
 }
 
@@ -224,12 +224,19 @@ td i
 
 	#formation td
 	{
-		min-width: 150px;
+		min-width: 120px;
 	}
 
 	#experience td
 	{
-		min-width: 150px;
+		min-width: 120px;
+	}
+
+	#liste ul
+	{
+		width: auto;
+		padding-left: 0;
+		margin-left: 20%;
 	}
 
 	
