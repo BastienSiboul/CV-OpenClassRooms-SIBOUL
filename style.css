@@ -73,7 +73,7 @@ aside h2
 #apropos
 {
 	padding-bottom: 2em;
-	height: 450px;
+	height: 380px;
 }
 
 #loisirs
@@ -194,7 +194,7 @@ h2 i
 
 .part2 strong
 {
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 
 @media screen and (max-width: 1024px)
