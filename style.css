@@ -73,7 +73,7 @@ aside h2
 #apropos
 {
 	padding-bottom: 2em;
-	height: 600px;
+	height: 450px;
 }
 
 #loisirs
@@ -160,28 +160,34 @@ h2 i
 	color: #FFD700;
 }
 
-#listeformation
+#listeformation, #listeexperience
 {
 	display: flex;
 	flex-direction: column;
 
 }
 
-#formation1
+#listeformation i, #listeexperience i
+{
+	font-size: 15px;
+	color: #FFD700;
+	margin-right: 20px;
+} 
+
+#formation1, #formation2, #formation3, #formation4, #experience1, #experience2
 {
 	display: flex;
-	height: 200px;
-	border: 2px solid black;
+	height: auto;
 }
 
 .part1
 {
-	min-width: 300px;
+	margin: 10px;
+	min-width: 250px;
 }
 
 .part2
 {
-	border: 1px	solid black;
 	width: auto;
 	margin: 10px;
 }
@@ -190,39 +196,6 @@ h2 i
 {
 	font-size: 1.5em;
 }
-
-/*#formation1 #formation3 #formation5 #formation7
-{
-	width: 30%;
-	min-width: 300px;
-} */
-
-
-/*table
-{
-	border-spacing: 1em 2em;
-}
-
-#formation td
-{
-	width: auto;
-	min-width: 300px;
-	vertical-align: top;
-}
-
-#experience td
-{
-	width: auto;
-	min-width: 300px;
-	vertical-align: top;
-} */
-
-#listeformation i
-{
-	font-size: 15px;
-	color: #FFD700;
-	margin-right: 20px;
-} 
 
 @media screen and (max-width: 1024px)
 {
@@ -258,16 +231,6 @@ h2 i
 		height: auto;
 	}
 
-	/*#formation td
-	{
-		min-width: 120px;
-	}
-
-	#experience td
-	{
-		min-width: 120px;
-	}*/
-
 	#liste ul
 	{
 		width: auto;
@@ -275,5 +238,25 @@ h2 i
 		margin-left: 20%;
 	}
 
+	#formation1, #formation2, #formation3, #formation4, #experience1, #experience2
+	{
+	flex-direction: column;
+	}
+
+	.part1
+	{
+		margin-top: 30px;
+	}
 	
+	.part2 strong
+	{
+	font-size: 1.2em;
+	}
+
+	h2 i
+	{
+	margin-right: 20px;
+	color: #FFD700;
+	}
+
 }
