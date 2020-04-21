@@ -143,15 +143,15 @@ i
 
 h3 + hr
 {
-  border: 2px solid #FFD700;
-  width: 150px;
-  margin-left: 0;
+  	border: 2px solid #FFD700;
+  	width: 150px;
+  	margin-left: 0;
 }
 
 
 hr
 {
-  border: 2px solid #FFD700;
+ 	 border: 2px solid #FFD700;
 }
 
 h2 i
@@ -240,7 +240,7 @@ h2 i
 
 	#formation1, #formation2, #formation3, #formation4, #experience1, #experience2
 	{
-	flex-direction: column;
+		flex-direction: column;
 	}
 
 	.part1
@@ -250,13 +250,13 @@ h2 i
 	
 	.part2 strong
 	{
-	font-size: 1.2em;
+		font-size: 1.2em;
 	}
 
 	h2 i
 	{
-	margin-right: 20px;
-	color: #FFD700;
+		margin-right: 20px;
+		color: #FFD700;
 	}
 
 }
